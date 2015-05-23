@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dip"
+    android:stretchColumns="1" >
+
+    <TableRow>
+        <TextView android:text="@string/id_detalleest"/>
+        <EditText
+            android:id="@+id/editId_detalleest"
+            android:inputType="number"
+            android:maxLength="7" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/anygraduacion" />
+        <EditText
+            android:id="@+id/editAnygraduacion"
+            android:inputType="number"
+            android:maxLength="50" />
+    </TableRow>
+
+
+    <TableRow>
+        <Button
+            android:onClick="actualizardetEstudio"
+            android:text="@string/actualizar" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:onClick="limpiarTexto"
+            android:text="@string/limpiar" />
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fia.ues.sv.bolsatrabajo" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RG12001Activity"
+            android:label="@string/title_activity_rg12001" >
+        </activity>
+        <activity
+            android:name=".SB12002Activity"
+            android:label="@string/title_activity_sb12002" >
+        </activity>
+        <activity
+            android:name=".GradoEspecializacionActivity"
+            android:label="@string/title_activity_grado_especializacion" >
+        </activity>
+        <activity
+            android:name=".ReferenciaActivity"
+            android:label="@string/title_activity_referencia" >
+        </activity>
+        <activity
+            android:name=".FB12001Activity"
+            android:label="@string/title_activity_fb12001" >
+        </activity>
+        <activity
+            android:name=".ReferenciaEliminarActivity"
+            android:label="@string/title_activity_referencia_eliminar" >
+        </activity>
+        <activity
+            android:name=".ReferenciaInsertarActivity"
+            android:label="@string/title_activity_referencia_insertar" >
+        </activity>
+        <activity
+            android:name=".ReferenciaConsultarActivity"
+            android:label="@string/title_activity_referencia_consultar" >
+        </activity>
+        <activity
+            android:name=".ReferenciaModificarActivity"
+            android:label="@string/title_activity_referencia_modificar" >
+        </activity>
+        <activity
+            android:name=".GradoEspecializacionInsertarActivity"
+            android:label="@string/title_activity_grado_especializacion_insertar" >
+        </activity>
+        <activity
+            android:name=".GradoEspecializacionEliminarActivity"
+            android:label="@string/title_activity_grado_especializacion_eliminar" >
+        </activity>
+        <activity
+            android:name=".GradoEspecializacionConsultarActivity"
+            android:label="@string/title_activity_grado_especializacion_consultar" >
+        </activity>
+        <activity
+            android:name=".GradoEspecializacionModificarActivity"
+            android:label="@string/title_activity_grado_especializacion_modificar" >
+        </activity>
+        <activity
+            android:name=".CargoMenuActivity"
+            android:label="@string/title_activity_cargo_menu" >
+        </activity>
+        <activity
+            android:name=".AplicacionMenuActivity"
+            android:label="@string/title_activity_aplicacion_menu" >
+        </activity>
+        <activity
+            android:name=".AplicacionInsertarActivity"
+            android:label="@string/title_activity_aplicacion_insertar" >
+        </activity>
+        <activity
+            android:name=".AplicacionActualizarActivity"
+            android:label="@string/title_activity_aplicacion_actualizar" >
+        </activity>
+        <activity
+            android:name=".AplicacionConsultarActivity"
+            android:label="@string/title_activity_aplicacion_consultar" >
+        </activity>
+        <activity
+            android:name=".AplicacionEliminarActivity"
+            android:label="@string/title_activity_aplicacion_eliminar" >
+        </activity>
+        <activity
+            android:name=".CargoInsertarActivity"
+            android:label="@string/title_activity_cargo_insertar" >
+        </activity>
+        <activity
+            android:name=".CargoActualizarActivity"
+            android:label="@string/title_activity_cargo_actualizar" >
+        </activity>
+        <activity
+            android:name=".CargoConsultarActivity"
+            android:label="@string/title_activity_cargo_consultar" >
+        </activity>
+        <activity
+            android:name=".CargoEliminarActivity"
+            android:label="@string/title_activity_cargo_eliminar" >
+        </activity>
+
+        <!-- FR12001 -->
+        <activity
+            android:name=".FR12001Activity"
+            android:label="@string/title_activity_fr12001" >
+        </activity>
+        <activity
+            android:name=".EmpleadoActivity"
+            android:label="@string/title_activity_empleado" >
+        </activity>
+        <activity
+            android:name=".ExperienciaLaboralActivity"
+            android:label="@string/title_activity_experiencia_laboral" >
+        </activity>
+        <activity
+            android:name=".EmpleadoInsertarActivity"
+            android:label="@string/title_activity_empleado_insertar" >
+        </activity>
+        <activity
+            android:name=".EmpleadoConsultarActivity"
+            android:label="@string/title_activity_empleado_consultar" >
+        </activity>
+        <activity
+            android:name=".EmpleadoActualizarActivity"
+            android:label="@string/title_activity_empleado_actualizar" >
+        </activity>
+        <activity
+            android:name=".EmpleadoEliminarActivity"
+            android:label="@string/title_activity_empleado_eliminar" >
+        </activity>
+        <activity
+            android:name=".ExpLaboralInsertarActivity"
+            android:label="@string/title_activity_exp_laboral_insertar" >
+        </activity>
+        <activity
+            android:name=".ExpLaboralConsultarActivity"
+            android:label="@string/title_activity_exp_laboral_consultar" >
+        </activity>
+        <activity
+            android:name=".ExpLaboralModificarActivity"
+            android:label="@string/title_activity_exp_laboral_modificar" >
+        </activity>
+        <activity
+            android:name=".ExpLaboralEliminarActivity"
+            android:label="@string/title_activity_exp_laboral_eliminar" >
+        </activity>
+        <!-- FIN FR12001 -->
+        <activity
+            android:name=".EmpresaMenuActivity"
+            android:label="@string/title_activity_empresa_menu" >
+        </activity>
+        <activity
+            android:name=".detEstudioMenuActivity"
+            android:label="@string/title_activity_det_estudio_menu" >
+        </activity>
+        <activity
+            android:name=".detEstudioInsertarActivity"
+            android:label="@string/title_activity_det_estudio_insertar" >
+        </activity>
+        <activity
+            android:name=".detEstudioConsultarActivity"
+            android:label="@string/title_activity_det_estudio_consultar" >
+        </activity>
+        <activity
+            android:name=".detEstudioActualizarActivity"
+            android:label="@string/title_activity_det_estudio_actualizar" >
+        </activity>
+        <activity
+            android:name=".detEstudioEliminarActivity"
+            android:label="@string/title_activity_det_estudio_eliminar" >
+        </activity>
+        <activity
+            android:name=".EmpresaInsertarActivity"
+            android:label="@string/title_activity_empresa_insertar" >
+        </activity>
+        <activity
+            android:name=".EmpresaConsultarActivity"
+            android:label="@string/title_activity_empresa_consultar" >
+        </activity>
+        <activity
+            android:name=".EmpresaActualizarActivity"
+            android:label="@string/title_activity_empresa_actualizar" >
+        </activity>
+        <activity
+            android:name=".EmpresaEliminarActivity"
+            android:label="@string/title_activity_empresa_eliminar" >
+        </activity>
+        <activity
+            android:name=".RS07003Activity"
+            android:label="@string/title_activity_rs07003" >
+        </activity>
+    </application>
+
+</manifest>

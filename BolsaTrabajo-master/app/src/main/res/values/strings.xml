@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">BolsaTrabajo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_rg12001">RG12001Activity</string>
+    <string name="title_activity_sb12002">SB12002Activity</string>
+    <string name="title_activity_grado_especializacion">GradoEspecializacionActivity</string>
+    <string name="title_activity_referencia">ReferenciaActivity</string>
+    <string name="title_activity_fb12001">FB12001Activity</string>
+
+    <!--  Strings de FB12001 -->
+    <string name="title_activity_cargo_menu">CargoMenuActivity</string>
+    <string name="title_activity_aplicacion_menu">AplicacionMenuActivity</string>
+    <string name="title_activity_aplicacion_insertar">AplicacionInsertarActivity</string>
+    <string name="title_activity_aplicacion_actualizar">AplicacionActualizarActivity</string>
+    <string name="title_activity_aplicacion_consultar">AplicacionConsultarActivity</string>
+    <string name="title_activity_aplicacion_eliminar">AplicacionEliminarActivity</string>
+    <string name="title_activity_cargo_insertar">CargoInsertarActivity</string>
+    <string name="title_activity_cargo_actualizar">CargoActualizarActivity</string>
+    <string name="title_activity_cargo_consultar">CargoConsultarActivity</string>
+    <string name="title_activity_cargo_eliminar">CargoEliminarActivity</string>
+    <string name="nombreCargof">Cargo:</string>
+    <string name="descripcionCargof">Descripción:</string>
+    <string name="fechaAplicacionf">Fecha</string>
+    <string name="estadoAplicacionf">Estado</string>
+    <string name="idCargof">Id Cargo</string>
+    <string name="idAplicacionf">Id Aplicacion</string>
+    <string name="idOfertaLaboralf">Id Oferta Laboral</string>
+    <string name="opciones">Opciones:</string>
+    <string name="insertar">Insertar</string>
+    <string name="limpiar">Limpiar</string>
+    <!-- Fin de strings FB12001 -->
+    <!-- Strings SB12002 -->
+    <string name="idReferencia">N° de Referencia:</string>
+    <string name="idEmpleado">N° de Empleado:</string>
+    <string name="idEmpresa">ID Empresa:</string>
+    <string name="title_activity_referencia_insertar">ReferenciaInsertarActivity</string>
+    <string name="nombreReferencia">Nombre (Ref) :</string>
+    <string name="telefonoReferencia">Telefono (Ref) :</string>
+    <string name="title_activity_referencia_eliminar">ReferenciaEliminarActivity</string>
+    <string name="title_activity_referencia_consultar">ReferenciaConsultarActivity</string>
+    <string name="title_activity_referencia_modificar">ReferenciaModificarActivity</string>
+    <string name="title_activity_grado_especializacion_insertar">
+        GradoEspecializacionInsertarActivity
+    </string>
+    <string name="eliminar">Eliminar</string>
+    <string name="title_activity_grado_especializacion_eliminar">
+        GradoEspecializacionEliminarActivity
+    </string>
+    <string name="title_activity_grado_especializacion_consultar">
+        GradoEspecializacionConsultarActivity
+    </string>
+    <string name="title_activity_grado_especializacion_modificar">
+        GradoEspecializacionModificarActivity
+    </string>
+    <string name="tvTablaReferencia">Tabla Referencia</string>
+    <string name="tvTablaGradoEspecializacion">Tabla Grado/Especializacion</string>
+    <string name="idEspecializacion">ID Especialización:</string>
+    <string name="idInstituto">ID Instituto de Estudio:</string>
+    <string name="nombreEspecializacion">Nombre de Especialización:</string>
+    <string name="duracionEspec">Duracion de la Especialización:</string>
+    <string name="consultar">Consultar</string>
+    <!-- fin strings-->
+    <!-- strings FR12001-->
+    <string name="empleado">Empleado</string>
+    <string name="nombreEmpleado">Nombre: </string>
+    <string name="duiEmpleado">Dui: </string>
+    <string name="sexoEmpleado">Sexo: </string>
+    <string name="sexoF">Femenino</string>
+    <string name="sexoM">Masculino</string>
+    <string name="edadEmpleado">Edad: </string>
+    <string name="direccionEmpleado">Direccion: </string>
+    <string name="telefonoEmpleado">Telefono: </string>
+    <string name="cantAplicacionesEmpleado">Aplicaciones que sigues: </string>
+    <string name="cantReferenciasEmpleado">Referencias: </string>
+    <string name="title_activity_empleado_consultar">EmpleadoConsultarActivity</string>
+    <string name="title_activity_empleado_actualizar">EmpleadoActualizarActivity</string>
+    <string name="title_activity_empleado_eliminar">EmpleadoEliminarActivity</string>
+    <string name="title_activity_exp_laboral_insertar">ExpLaboralInsertarActivity</string>
+    <string name="title_activity_exp_laboral_consultar">ExpLaboralConsultarActivity</string>
+    <string name="title_activity_exp_laboral_modificar">ExpLaboralModificarActivity</string>
+    <string name="title_activity_exp_laboral_eliminar">ExpLaboralEliminarActivity</string>
+    <string name="consultarIdEmpleado">Ingrese el N° de Empleado que se le asigno: </string>
+    <string name="modificarEmpleado">Modificar este Empleado</string>
+    <string name="eliminarEmpleado">Eliminar este empleado</string>
+    <string name="actualizarDatos">Actualizar Datos</string>
+    <string name="title_activity_fr12001">FR12001Activity</string>
+    <string name="title_activity_empleado">EmpleadoActivity</string>
+    <string name="title_activity_experiencia_laboral">ExperienciaLaboralActivity</string>
+    <string name="title_activity_empleado_insertar">EmpleadoInsertarActivity</string>
+
+    <string name="title_activity_institucion_educacion">InstitucionEducacionActivity</string>
+    <string name="title_activity_oferta_laboral">OfertaLaboralActivity</string>
+    <string name="title_activity_oferta_laboral_actualizar">OfertaLaboralActualizarActivity</string>
+    <string name="title_activity_oferta_laboral_eliminar">OfertaLaboralEliminarActivity</string>
+    <string name="title_activity_oferta_laboral_consultar">OfertaLaboralConsultarActivity</string>
+    <string name="title_activity_oferta_laboral_crear">OfertaLaboralCrearActivity</string>
+    <string name="title_activity_institucion_educacion_crear">InstitucionEducacionCrearActivity
+    </string>
+    <string name="title_activity_institucion_educacion_consultar">
+        InstitucionEducacionConsultarActivity
+    </string>
+    <string name="title_activity_institucion_educacion_actualizar">
+        InstitucionEducacionActualizarActivity
+    </string>
+    <string name="title_activity_institucion_educacion_eliminar">
+        InstitucionEducacionEliminarActivity
+    </string>
+
+    <!-- fin strings-->
+
+
+    <!-- strings RS07003-->
+
+    <string name="actualizar">Actualizar</string>
+    <string name="title_activity_empresa_menu">EmpresaMenuActivity</string>
+    <string name="title_activity_det_estudio_menu">detEstudioMenuActivity</string>
+    <string name="title_activity_det_estudio_insertar">detEstudioInsertarActivity</string>
+    <string name="title_activity_det_estudio_consultar">detEstudioConsultarActivity</string>
+    <string name="title_activity_det_estudio_actualizar">detEstudioActualizarActivity</string>
+    <string name="title_activity_det_estudio_eliminar">detEstudioEliminarActivity</string>
+    <string name="title_activity_empresa_insertar">EmpresaInsertarActivity</string>
+    <string name="title_activity_empresa_consultar">EmpresaConsultarActivity</string>
+    <string name="title_activity_empresa_actualizar">EmpresaActualizarActivity</string>
+    <string name="title_activity_empresa_eliminar">EmpresaEliminarActivity</string>
+    <string name="title_activity_rs07003">RS07003Activity</string>
+
+
+    <string name="empresa_menu">Función a Ejecutar Empresa</string>
+    <string name="detestudio_menu">Función a Ejecutar detEstudio</string>
+
+    <string name="insertar_registro">Insertar registro</string>
+    <string name="eliminar_registro">Eliminar registro</string>
+    <string name="consultar_registro">Consultar registro</string>
+    <string name="actualizar_registro">Actualizar registro</string>
+
+    <string name="id_empresa">idEmpresa: </string>
+    <string name="nombre_empresa">nomEmpresa: </string>
+    <string name="nit_empresa">nitEmpresa:</string>
+    <string name="dir_empresa">dirEmpresa:</string>
+    <string name="tel_empresa">telEmpresa:</string>
+    <string name="cantoferta_empresa">Cantidad Ofertas:</string>
+
+    <string name="id_detalleest">id_detalleEst</string>
+    <string name="id_empleado">idEmpleado</string>
+    <string name="id_especializacion">idEspecializacion</string>
+    <string name="id_institutoestudio">institutoEsp</string>
+    <string name="anygraduacion">periodo_academico</string>
+
+    <!-- fin strings-->
+
+
+</resources>
